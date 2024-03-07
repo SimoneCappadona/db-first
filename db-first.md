@@ -1,8 +1,13 @@
 | FIELD | TYPE || ATTRIBUTES | INDEXS |
 | -------- | ------- || -------- | ------- |
-| ID | |
-| | |
-| | |
-| | |
-| | |
-| | |
+| ID | INT |AUTOINCREMENT, NOT NULL, UNIQUE | |
+| MODEL | VARCHAR(50) |NOT NULL,| |
+| TYPE_FUEL | VARCHAR(50) | NOT NULL, | |
+| TRACTION | CHAR(20) | NOT NULL, | |
+| BRAND | CHAR(20) | NOT NULL, UNIQUE | |
+| GENERATION | DATE | NOT NULL, | |
+| DISPLACEMENT | SMALLINT | NOT NULL, | |
+| COLOR | VARCHAR(40) | NOT NULL, | |
+| OPTIONAL | VARCHAR(200) | NULL, | |
+
+
