@@ -1,13 +1,16 @@
 | FIELD | TYPE || ATTRIBUTES | INDEXS |
 | -------- | ------- || -------- | ------- |
-| ID | INT |AUTO_INCREMENT, (NOT NULL, UNIQUE, UNSIGNED) | PRIMARY_KEY|
-| MODEL | VARCHAR(50) |NOT NULL,| INDEX |
-| TYPE_FUEL | VARCHAR(50) | NOT NULL, | |
-| TRACTION | CHAR(20) | NOT NULL, | |
-| BRAND | CHAR(20) | NOT NULL, | INDEX |
-| GENERATION | DATE | NOT NULL, | |
-| DISPLACEMENT | SMALLINT | NOT NULL, | |
-| COLOR | VARCHAR(40) | NOT NULL, Default("black") | |
-| OPTIONAL | VARCHAR(200) | NULL, | |
+| id | INT |AUTO_INCREMENT, (NOT NULL, UNIQUE, UNSIGNED) | PRIMARY_KEY|
+| model | VARCHAR(50) |NOT NULL,| INDEX |
+| type_fuel | VARCHAR(30) | NOT NULL, | |
+| traction | CHAR(20) | NOT NULL, | |
+| brand | CHAR(20) | NOT NULL, | INDEX |
+| generation | DATE | NOT NULL, | |
+| displacement | SMALLINT | NOT NULL, | |
+| color | VARCHAR(30) | NOT NULL, Default("black") | |
+| optional | VARCHAR(100) | NULL, | |
+| price | INT | NOT NULL,UNSIGNED | |
+
+
 
 
