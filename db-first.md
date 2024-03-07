@@ -9,7 +9,7 @@
 | displacement | SMALLINT | NOT NULL, | |
 | color | VARCHAR(30) | NOT NULL, Default("black") | |
 | optional | VARCHAR(100) | NULL, | |
-| price | INT | NOT NULL,UNSIGNED | |
+| price | DECIMAL | NOT NULL,UNSIGNED | |
 
 
 
